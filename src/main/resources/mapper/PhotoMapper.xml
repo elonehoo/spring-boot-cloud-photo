@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.inet.code.mapper.PhotoMapper">
+
+    <!--通过手机号码查询用户的所有图片-->
+    <select id="getList" resultType="com.inet.code.entity.vo.PhotoView">
+        SELECT
+            photo_id AS photoId,
+            photo_url AS photoUrl
+        FROM
+            tbl_photo
+        WHERE
+            photo_mobile = #{mobile}
+        ORDER BY
+            gmt_create DESC;
+    </select>
+</mapper>
