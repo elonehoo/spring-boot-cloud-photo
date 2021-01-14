@@ -28,7 +28,7 @@ import java.util.UUID;
  *  前端控制器
  * </p>
  *
- * @author HCY
+ * @author WSQ
  * @since 2020-12-24
  */
 @RestController
@@ -43,7 +43,7 @@ public class PhotoController {
     /**
      * 查看该手机号码所有的图片
      *
-     * @author HCY
+     * @author WSQ
      * @since 2020/12/24 下午 03:35
      * @param mobile: 手机号码
      * @return com.inet.code.result.Result
@@ -142,7 +142,7 @@ public class PhotoController {
     /**
      * 删除图片
      *
-     * @author HCY
+     * @author WSQ
      * @since 2020/12/24 下午 04:08
      * @param photoId: 图片序号
      * @return com.inet.code.result.Result

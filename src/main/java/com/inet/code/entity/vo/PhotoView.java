@@ -16,7 +16,7 @@ import java.io.Serializable;
 /**
  * 展示图片的实体类
  *
- * @author HCY
+ * @author WSQ
  * @since 2020/12/24 下午 03:27
 */
 @Data

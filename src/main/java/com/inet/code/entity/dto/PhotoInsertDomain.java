@@ -13,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 /**
  * 新增图片的实体类
  *
- * @author HCY
+ * @author WSQ
  * @since 2020/12/24 下午 03:36
 */
 @Data

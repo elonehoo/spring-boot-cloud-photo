@@ -15,7 +15,7 @@ import lombok.EqualsAndHashCode;
  * 云相册实体类
  * </p>
  *
- * @author HCY
+ * @author WSQ
  * @since 2020-12-24
  */
 @Data

@@ -12,7 +12,7 @@ import java.util.List;
  *  Mapper 接口
  * </p>
  *
- * @author HCY
+ * @author WSQ
  * @since 2020-12-24
  */
 @Mapper
@@ -21,7 +21,7 @@ public interface PhotoMapper extends BaseMapper<Photo> {
     /**
      * 通过手机号码查询用户的所有图片
      *
-     * @author HCY
+     * @author WSQ
      * @since 2020/12/24 下午 03:30
      * @param mobile: 手机号码
      * @return java.util.List<com.inet.code.entity.vo.PhotoView>

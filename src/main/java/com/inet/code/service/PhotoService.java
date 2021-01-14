@@ -10,7 +10,7 @@ import com.inet.code.result.Result;
  *  服务类
  * </p>
  *
- * @author HCY
+ * @author WSQ
  * @since 2020-12-24
  */
 public interface PhotoService extends IService<Photo> {
@@ -18,7 +18,7 @@ public interface PhotoService extends IService<Photo> {
     /**
      * 通过手机号码查询所有的图片集合
      *
-     * @author HCY
+     * @author WSQ
      * @since 2020/12/24 下午 03:25
      * @param mobile: 手机号码
      * @param path: URL路径
@@ -29,7 +29,7 @@ public interface PhotoService extends IService<Photo> {
     /**
      * 新增手机号码照片
      *
-     * @author HCY
+     * @author WSQ
      * @since 2020/12/24 下午 03:40
      * @param photoInsertDomain: 新增图片的实体类
      * @param path: URL路径
@@ -40,7 +40,7 @@ public interface PhotoService extends IService<Photo> {
     /**
      * 删除照片
      *
-     * @author HCY
+     * @author WSQ
      * @since 2020/12/24 下午 04:00
      * @param photoId: 照片序号
      * @param path: URL路径

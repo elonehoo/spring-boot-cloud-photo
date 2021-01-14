@@ -23,7 +23,7 @@ import java.util.UUID;
  *  服务实现类
  * </p>
  *
- * @author HCY
+ * @author WSQ
  * @since 2020-12-24
  */
 @Service
@@ -36,7 +36,7 @@ public class PhotoServiceImpl extends ServiceImpl<PhotoMapper, Photo> implements
     /**
      * 通过手机号码查询所有的图片集合
      *
-     * @author HCY
+     * @author WSQ
      * @since 2020/12/24 下午 03:25
      * @param mobile: 手机号码
      * @param path: URL路径
@@ -52,7 +52,7 @@ public class PhotoServiceImpl extends ServiceImpl<PhotoMapper, Photo> implements
     /**
      * 新增手机号码照片
      *
-     * @author HCY
+     * @author WSQ
      * @since 2020/12/24 下午 03:41
      * @param photoInsertDomain: 新增图片的实体类
      * @param path: URL路径
@@ -66,7 +66,7 @@ public class PhotoServiceImpl extends ServiceImpl<PhotoMapper, Photo> implements
     /**
      * 删除照片
      *
-     * @author HCY
+     * @author WSQ
      * @since 2020/12/24 下午 04:00
      * @param photoId: 照片序号
      * @param path: URL路径
